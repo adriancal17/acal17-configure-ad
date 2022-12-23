@@ -41,7 +41,7 @@ Here in the azure portal we see the client VM we setup. On the left of the page 
 <img src="https://i.imgur.com/j6jX25h.jpeg)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-When first logging into your Domain Controllers VM, open up the 'Server Manager' application. This is where we'll install Active Directory. Be sure to check the box that is labeled "Active Directory Domain Services" and setup a new 'Forest'. Once completed your computer Active Directory will be ready to run as soon as you restart the VM.
+When first logging into your Domain Controllers VM, open up the 'Server Manager' application. This is where we'll install Active Directory. Be sure to check the box that is labeled "Active Directory Domain Services" and setup a new 'Forest'. Once completed Active Directory will be ready to run as soon as you restart the VM.
 </p>
 <br />
 
