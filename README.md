@@ -49,6 +49,8 @@ When first logging into your Domain Controllers VM, open up the 'Server Manager'
 <img src="https://i.imgur.com/rqvuhur.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After restarting the DC VM and logging in click on the Windows icon and search Active Directory to verify it was a succesfful installation. I ran a script to generate thousands of users. This is where we'll utilize the "Client" VM. From the Azure Portal  
+After restarting the DC VM and logging in click on the Windows icon and search Active Directory to verify it was a succesfful installation. I ran a script to generate thousands of users. This is where we'll utilize the "Client" VM. From the Azure Portal, set the "Client" VM's DNS settings to the DC VM's private IP address and restart the "Client" VM. Next after logging back into the VM join it into the domain, "mydomaindotcom". Once it has successfully joined it will restart. Since this VM is now apart of the network it will be able to log into any of the random users that we generated earlier and be able to access the files on the server as long as it has the right permissions. The photo below shows me logging into a user we created in Active Directory.
+
+<img src="https://i.imgur.com/ofNsVlz.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
