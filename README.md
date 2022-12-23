@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/Zh7MIP2.jpg)"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here in the azure portal we see the client VM we setup. On the left of the page we see "Networking" where we can view the VNET and verify it's identical to our Domain Controllers VNET.
+Here in the azure portal we see the client VM we setup. On the left of the page we see "Networking" where we can view the VNET and verify it's identical to our Domain Controllers VNET. In the center of the page we see the Microsoft Remote Desktop app where we will be using to access both VM's via 'Public IP Address', VM Name, and password.
 </p>
 <br />
 
